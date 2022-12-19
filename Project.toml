@@ -1,0 +1,13 @@
+name = "DemoPkg"
+uuid = "d6653fa3-4b09-4929-aa67-6516c0db5b67"
+authors = ["sarath-suresh-menon"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
