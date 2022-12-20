@@ -1,5 +1,9 @@
 module DemoPkg
 
-# Write your package code here.
+export greet_your_package_name
+
+x = 2
+
+include("functions.jl")
 
 end
